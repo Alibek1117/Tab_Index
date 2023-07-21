@@ -1,0 +1,11 @@
+.btnn{
+    padding: 4px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    background: #a7a5a5;
+    font-size: 15px;
+}
+.btnn:hover{
+    background: #c5c3c3;
+}

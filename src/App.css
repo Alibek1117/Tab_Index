@@ -1,0 +1,101 @@
+
+ *{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+
+.big__div{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 153, 255, 0.562);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card{
+  padding: 32px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+form.top{
+  width: 100%;
+}
+input{
+  width: 78%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #9b9a9a;
+  font-size: 15px;
+  outline: none;
+}
+.btn{
+  /* width: 17%; */
+  height: 40px;
+  margin-left: 10px;
+  background-color: #b3b3b3;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 0px 5px;
+  box-sizing: border-box;
+}
+.btn:hover{
+  background-color: #cccbcb;
+}
+
+.middle{
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.spn{
+  color: #9b9a9a;
+  font-size: 15px;
+  font-weight: 600;
+}
+.spn:hover{
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+.active{
+  color: black;
+}
+/* .active2{
+  color: black;
+}
+.active3{
+  color: black;
+} */
+
+
+.modal-backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000000af;
+  text-align: center;
+}
+
+.modal{
+  width: 300px;
+  margin: 100px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.btnn{
+  padding: 10xp 40px;
+}
